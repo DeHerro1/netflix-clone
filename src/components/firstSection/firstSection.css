@@ -1,0 +1,117 @@
+.firstSection {
+  background: url("../../assets/netflix-background.jpg") no-repeat center
+    center/cover;
+  height: 93vh;
+  width: 100%;
+}
+.firstSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+.topLayer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.netflix_logo {
+  width: 100px;
+  height: 30px;
+  z-index: 2;
+}
+.email_input1 {
+  width: 100%;
+  height: 50px;
+  outline: none;
+  font-size: 1.5em;
+}
+.start_btn1 {
+  width: 30%;
+  margin-top: 20px;
+  background-color: red;
+  border-radius: 3px;
+  min-height: 40px;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.sign_in {
+  width: 80px;
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  height: 30px;
+  z-index: 2;
+  cursor: pointer;
+}
+.text_section {
+  color: white;
+  position: relative;
+  width: 80%;
+  margin: auto;
+  z-index: 2;
+}
+.text_cap {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.sub_text {
+  margin-top: -20px;
+}
+.text_watch {
+  font-size: 18px;
+  padding: 0 20px;
+}
+@media (min-width: 600px) {
+  .firstSection {
+    height: 100vh;
+  }
+  .firstSection::after {
+    height: 100%;
+  }
+  .email_input1 {
+    width: 80%;
+  }
+  .text_cap {
+    font-size: 3rem;
+  }
+  .sub_text {
+    margin-top: -20px;
+  }
+}
+@media (min-width: 900px) {
+  .text_section {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  .input_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .email_input1 {
+    width: 50%;
+  }
+  .start_btn1 {
+    width: 40%;
+    height: 55px;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .text_cap {
+    font-size: 3rem;
+  }
+  .text_watch {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,45 @@
+.contain {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.dropdown-basic {
+    font-size: 25px;
+    background-color: rgb(87, 87, 87);
+    outline: none;
+    width: 100%;
+    min-height: 50px;
+    border: none;
+    margin: 10px auto;
+    color: white;
+    cursor: pointer;
+    
+}
+.drop-collapse-text {
+    margin-top: 1px;
+    line-height: 2rem;
+    font-size: 18px;
+    background-color: rgb(87, 87, 87);
+}
+
+@media (min-width: 600px) {
+    .dropdown-basic {
+        width: 80%;
+        
+    }
+    .drop-collapse-text {
+        width: 80%;
+        margin: auto;
+    }
+}
+@media (min-width: 900px) {
+    .dropdown-basic {
+        width: 50%;
+        
+    }
+    .drop-collapse-text {
+        width: 50%;
+        margin: auto;
+    }
+}
