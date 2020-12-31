@@ -1,5 +1,5 @@
 import React from 'react';
-import './/InnerSection.css';
+import './InnerSection.css';
 
 const innerSection = (props) => (
     <div className="InnerSection">

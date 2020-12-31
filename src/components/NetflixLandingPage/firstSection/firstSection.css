@@ -1,8 +1,18 @@
 .firstSection {
-  background: url("../../assets/netflix-background.jpg") no-repeat center
+  background: url("../../../assets/netflix-background.jpg") no-repeat center
     center/cover;
   height: 93vh;
   width: 100%;
+}
+.signLink {
+  color: white;
+  text-decoration: none;
+}
+.verified {
+  background: red;
+  height: 30px;
+  width: 50%;
+  margin: 0 auto;  
 }
 .firstSection::before {
   content: "";
@@ -29,6 +39,11 @@
   height: 50px;
   outline: none;
   font-size: 1.5em;
+}
+.button_text {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }
 .start_btn1 {
   width: 30%;
@@ -79,7 +94,11 @@
     height: 100%;
   }
   .email_input1 {
-    width: 80%;
+    width: 80% !important;
+    background-color: white !important;
+    font-size: 20px !important;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
   .text_cap {
     font-size: 3rem;
@@ -98,6 +117,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
   .email_input1 {
     width: 50%;

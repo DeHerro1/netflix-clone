@@ -1,7 +1,7 @@
 import React from 'react';
-import tv1 from '../../assets/tv1.png';
-import tv2 from '../../assets/tv2.jpg';
-import tv3 from '../../assets/tv3.png';
+import tv1 from '../../../assets/tv1.png';
+import tv2 from '../../../assets/tv2.jpg';
+import tv3 from '../../../assets/tv3.png';
 import InnerSection from './InnerSection/InnerSection';
 
 const secondSection = () => (
